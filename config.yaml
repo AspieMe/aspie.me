@@ -11,6 +11,7 @@ paginate: 8
 googleAnalytics: G-HGYRW04XQE
 Copyright: |-
   Copyright &copy; {{< time.inline >}}{{ now.Year }}{{< /time.inline >}} under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) with [attributions](/attributions).
+enableRobotsTXT: true
 
 outputs:
   home:
