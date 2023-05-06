@@ -33,7 +33,7 @@ Permalinks:
 params:
   env: production
   title: Aspie Me
-  description: 'An another Aspie weblog (noun: another term for blog)'
+  description: 'Another Aspie weblog (noun: another term for blog)'
   keywords: [Blog, Aspie]
   author: An Aspie
   DateFormat: "January 2, 2006"
