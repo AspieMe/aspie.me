@@ -1,0 +1,82 @@
+baseURL: https://aspie.me/
+languageCode: en-us
+title: aspie.me
+theme: PaperMod
+
+canonifyURLs: true
+cleanDestinationDir: true
+enableInlineShortcodes: true
+
+paginate: 8
+googleAnalytics: G-HGYRW04XQE
+Copyright: |-
+  Copyright &copy; {{< time.inline >}}{{ now.Year }}{{< /time.inline >}} under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) with [attributions](/attributions).
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+minify:
+  disableXML: false
+  minifyOutput: true
+
+Permalinks:
+  posts: /posts/:year/:slugorfilename/
+
+params:
+  env: production
+  title: Aspie Me
+  description: 'An another Aspie weblog (noun: another term for blog)'
+  keywords: [Blog, Aspie]
+  author: Me
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto
+  disableThemeToggle: true
+  hideFooter: true
+  hideSummary: false
+  ShowPostNavLinks: false
+  ShowReadingTime: true
+  ShowBreadCrumbs: false
+  comments: true
+
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  UseHugoToc: true
+  disableSpecial1stPost: true
+  disableScrollToTop: true
+  showtoc: false
+  tocopen: false
+
+  label:
+    text: "aspie.me"
+
+  homeInfoParams:
+    Title: Welcome,
+    Content: 'to another Aspie weblog (noun: another term for blog)'
+
+  assets:
+    disableHLJS: true
+    disableScrollBarStyle: true
+
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true
+    hiddenInList: true
+    hiddenInSingle: true
+
+  editPost:
+    URL: https://github.com/AspieMe/aspie.me/tree/master/content
+    Text: Source
+    appendFilePath: true
+
+menu:
+  main:
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 10
