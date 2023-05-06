@@ -1,6 +1,6 @@
 baseURL: https://aspie.me/
 languageCode: en-us
-title: aspie.me
+title: Aspie Me
 theme: PaperMod
 
 canonifyURLs: true
@@ -51,7 +51,9 @@ params:
   tocopen: false
 
   label:
-    text: "aspie.me"
+    text: Aspie Me
+    icon: /icon.svg
+    iconHeight: 24
 
   homeInfoParams:
     Title: Welcome,

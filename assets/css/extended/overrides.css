@@ -1,3 +1,8 @@
 .home-info {
     min-height: 120px;
 }
+
+.logo a img, .logo a svg{
+    border-radius: 0;
+    transform: translate(0,-4%);
+}
