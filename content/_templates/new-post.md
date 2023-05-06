@@ -1,5 +1,7 @@
 ---
-title: "Hello, World!"
+title:
+slug:
+summary:
 date: '{{date}}'
 draft: true
 ---
