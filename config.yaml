@@ -31,7 +31,7 @@ params:
   title: Aspie Me
   description: 'An another Aspie weblog (noun: another term for blog)'
   keywords: [Blog, Aspie]
-  author: Me
+  author: An Aspie
   DateFormat: "January 2, 2006"
   defaultTheme: auto
   disableThemeToggle: true
@@ -60,6 +60,8 @@ params:
   assets:
     disableHLJS: true
     disableScrollBarStyle: true
+    theme_color: '#ffffff'
+    msapplication_TileColor : '#ffffff'
 
   # analytics:
   #   google:
